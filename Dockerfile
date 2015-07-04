@@ -2,6 +2,7 @@ FROM karalabe/xgo-latest
 MAINTAINER mdouchement
 
 # Go QML dependencies
+RUN apt-get update
 RUN apt-get install -y python-software-properties
 RUN add-apt-repository ppa:ubuntu-sdk-team/ppa
 RUN apt-get update
