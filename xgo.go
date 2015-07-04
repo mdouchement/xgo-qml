@@ -17,7 +17,7 @@ import (
 
 // Cross compilation docker containers
 var dockerBase = "karalabe/xgo-base"
-var dockerDist = "karalabe/xgo-"
+var dockerDist = "mdouchement/xgo-"
 
 // Command line arguments to fine tune the compilation
 var goVersion = flag.String("go", "latest", "Go release to use for cross compilation")
